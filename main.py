@@ -83,7 +83,7 @@ def main():
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_ticker_input))
 
     # Set up price alert job to run every minute
-    #updater.job_queue.run_repeating(price_alert, interval=20, first=0)
+    updater.job_queue.run_repeating(price_alert, interval=20, first=0)
 
     updater.start_polling()
     updater.idle()
