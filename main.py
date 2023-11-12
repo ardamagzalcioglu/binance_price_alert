@@ -1,8 +1,6 @@
 from binance.client import Client
 from binance import exceptions
 import requests
-import time
-import timeit
 from telegram import Update,KeyboardButton,ReplyKeyboardMarkup,ReplyMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
