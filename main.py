@@ -4,12 +4,12 @@ import requests
 from telegram import Update,KeyboardButton,ReplyKeyboardMarkup,ReplyMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-api_key = 'IMvgRj4ypRCwW9rKuIL9ZKynWmB9DbmmKdzJZ49EMF3Z9dSOm1sZSn6zRDY4kTe1'
-api_secret = 'eSW3UVmq0FgNpcJUWAtlNM0E7ZSvWJKscmcSNErP0bbKkvWDruSRs0VUwpcPKDPZ'
-bot_token ="6676473175:AAEej6wXo2KvtKSTlqjk8CERCWuqbnAF6gY"
+api_key = #your binance api key (string)
+api_secret = #your binance api secret(string)
+bot_token =#Your telegram bot token(string)
 
 client = Client(api_key, api_secret)
-user_id=1246307492
+user_id=#Your telegram user id(integer)
 
 # Dictionary to store user-specific target prices
 data= {}
